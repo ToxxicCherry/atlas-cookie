@@ -23,6 +23,7 @@ class WbCookies:
             uc=True,
             headed=False,
             headless=True,
+            no_sandbox=True,
             agent=self.user_agent
         )
 
